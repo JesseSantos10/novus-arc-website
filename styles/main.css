@@ -1,10 +1,12 @@
 body {
-  margin: 0;
+  border: 5px solid red; }
+  /*margin: 0;
   font-family: 'Playfair Display', serif;
   background-color: #053C20; /* match logo */
-  color: #e9dcc2; /* light beige */
-  text-align: center;
-}
+  /*color: #e9dcc2; /* light beige */
+  /*text-align: center;
+}*/
+
 
 .top-bar {
   display: flex;
