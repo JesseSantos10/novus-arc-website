@@ -10,6 +10,7 @@ body {
 .home-background {
   background-color: #053E20;
   color: #e9dcc2;
+  min-height: 100vh;
 }
 
 /* Login page background */
@@ -27,7 +28,7 @@ body {
 }
 
 .logo-main {
-  width: 360px;
+  width: 500px;
   max-width: 90%;
   margin-bottom: 2rem;
 }
@@ -67,12 +68,12 @@ body {
 /* Hero Section */
 .hero {
   background-color: #053E20;
-  padding-top: 10vh;
-  padding-bottom: 10vh;
+  padding-top: 12vh;
+  padding-bottom: 12vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: -5px;
+  margin-bottom: -10px;
 }
 
 /* Footer */
