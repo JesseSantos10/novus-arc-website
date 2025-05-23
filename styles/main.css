@@ -1,8 +1,14 @@
-/* Main site styles */
+/* General Styles */
 body {
   margin: 0;
   font-family: 'Playfair Display', serif;
   text-align: center;
+  color: #e9dcc2;
+}
+
+/* Homepage background */
+.home-background {
+  background-color: #053E20;
   color: #e9dcc2;
 }
 
@@ -14,7 +20,7 @@ body {
   color: #e9dcc2;
 }
 
-/* Branding section */
+/* Branding */
 .branding {
   text-align: center;
   margin-top: 2rem;
@@ -26,7 +32,58 @@ body {
   margin-bottom: 2rem;
 }
 
-/* Form container */
+/* Top Bar */
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #053E20;
+}
+
+.logo-small {
+  height: 40px;
+}
+
+/* Button Styles */
+.btn {
+  background-color: transparent;
+  border: 2px solid #c6a738;
+  color: #c6a738;
+  padding: 0.6rem 1.5rem;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #c6a738;
+  color: #053E20;
+}
+
+/* Hero Section */
+.hero {
+  padding-top: 8vh;
+  padding-bottom: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Footer */
+.bottom-wave {
+  background-color: #e9dcc2;
+  color: #002d1f;
+  font-family: Copperplate, serif;
+  padding: 3rem 1rem 2rem;
+  border-top-left-radius: 100% 30%;
+  border-top-right-radius: 100% 30%;
+}
+
+/* Form Pages */
 .form-page {
   display: flex;
   flex-direction: column;
@@ -74,23 +131,6 @@ body {
   outline: none;
   border-color: #e1c65f;
   box-shadow: 0 0 5px #e1c65f;
-}
-
-.btn {
-  background-color: #c6a738;
-  color: #053E20;
-  padding: 0.6rem 1.5rem;
-  text-align: center;
-  font-weight: bold;
-  font-size: 1rem;
-  border-radius: 30px;
-  border: none;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-
-.btn:hover {
-  background-color: #a3862c;
 }
 
 .form-links {
