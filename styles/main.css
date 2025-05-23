@@ -3,7 +3,7 @@ body {
   margin: 0;
   font-family: 'Playfair Display', serif;
   text-align: center;
-  color: #053E20;
+  color: #e9dcc2;
 }
 
 /* Homepage background */
@@ -66,6 +66,7 @@ body {
 
 /* Hero Section */
 .hero {
+  background-color: #053E20;
   padding-top: 8vh;
   padding-bottom: 5vh;
   display: flex;
@@ -145,4 +146,3 @@ body {
   text-decoration: underline;
   margin: 0 0.25rem;
 }
-
