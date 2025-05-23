@@ -57,7 +57,7 @@ body {
   border-top-left-radiu
 /* Background and branding */
 .login-background {
-  background: url('/styles/images/login-background.jpg') no-repeat center center fixed;
+  background: url('../images/login-background.jpg') no-repeat center center fixed;
   background-size: cover;
   font-family: 'Playfair Display', serif;
   margin: 0;
