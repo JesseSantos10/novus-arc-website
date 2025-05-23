@@ -1,48 +1,23 @@
+/* Main site styles */
 body {
-
   margin: 0;
   font-family: 'Playfair Display', serif;
-  /*background-color: #053C20; /* match logo */
-  color: #e9dcc2; /* light beige */
   text-align: center;
+  color: #e9dcc2;
 }
 
-
-.top-bar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 2rem;
-   background-color: #053C20; /* match logo */
+/* Login page background */
+.login-background {
+  background: url('/images/login-background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Playfair Display', serif;
+  color: #e9dcc2;
 }
 
-.logo-small {
-  height: 40px;
-}
-
-.btn {
-  background-color: transparent;
-  border: 2px solid #c6a738;
-  color: #c6a738;
-  padding: 0.6rem 1.5rem;
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 1rem;
-  border-radius: 30px;
-  transition: all 0.3s ease;
-}
-
-.btn:hover {
-  background-color: #c6a738;
-  color: #053E20;
-}
-
-.hero {
-  padding-top: 8vh;
-  padding-bottom: 5vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+/* Branding section */
+.branding {
+  text-align: center;
+  margin-top: 2rem;
 }
 
 .logo-main {
@@ -51,36 +26,7 @@ body {
   margin-bottom: 2rem;
 }
 
-.bottom-wave {
-  background-color: #e9dcc2;
-  color: #002d1f;
-  font-family: Copperplate, serif;
-  padding: 3rem 1rem 2rem;
-  border-top-left-radiu
-/* Background and branding */
-
-.login-background {
-  background: red;
-    /* url('../images/login-background.jpg') no-repeat center center fixed; */
-  background-size: cover;
-  font-family: 'Playfair Display', serif;
-  margin: 0;
-  color: #e9dcc2;
-}
-
-.branding {
-  text-align: center;
-  margin-top: 2rem;
-}
-
-.form-header {
-  font-family: Copperplate, serif;
-  font-size: 2.5rem;
-  margin-bottom: 1.5rem;
-  text-align: center;
-}
-
-/* Translucent Form */
+/* Form container */
 .form-page {
   display: flex;
   flex-direction: column;
@@ -88,6 +34,12 @@ body {
   justify-content: center;
   min-height: 70vh;
   padding: 2rem;
+}
+
+.form-header {
+  font-family: Copperplate, serif;
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .form-card {
@@ -106,6 +58,8 @@ body {
 .form-card label {
   font-weight: 600;
   font-size: 0.9rem;
+  text-align: left;
+  color: #e9dcc2;
 }
 
 .form-card input {
@@ -122,7 +76,6 @@ body {
   box-shadow: 0 0 5px #e1c65f;
 }
 
-/* Login Button */
 .btn {
   background-color: #c6a738;
   color: #053E20;
@@ -140,7 +93,6 @@ body {
   background-color: #a3862c;
 }
 
-/* Links */
 .form-links {
   margin-top: 1rem;
   text-align: center;
@@ -153,4 +105,4 @@ body {
   text-decoration: underline;
   margin: 0 0.25rem;
 }
-  
+
