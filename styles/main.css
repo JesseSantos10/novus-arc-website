@@ -60,7 +60,8 @@ body {
 /* Background and branding */
 
 .login-background {
-  background: url('../images/login-background.jpg') no-repeat center center fixed;
+  background: red
+    /* url('../images/login-background.jpg') no-repeat center center fixed; */
   background-size: cover;
   font-family: 'Playfair Display', serif;
   margin: 0;
